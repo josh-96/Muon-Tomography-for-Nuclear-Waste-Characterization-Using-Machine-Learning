@@ -7,7 +7,7 @@ The methods implemented address challenges such as noise, uncertainty, and data 
 
 ## **Objective**
 To propose a series of statistical and AI-based approaches for optimizing machine learning performance in analyzing and interpreting muon tomography data, including:  
-1. Reducing noise in captured images.  
+1. Simulate noise in captured images.  
 2. Modeling uncertainty and variability in muon detection and interactions.  
 3. Enabling robust data augmentation for model training.  
 
@@ -48,22 +48,21 @@ The notebook requires the following Python libraries:
 - `matplotlib`  
 - `scipy`  
 - `sklearn`  
-- `jupyter`  
-
-To install all dependencies, run:  
-```bash
-pip install -r requirements.txt
-```
+- `expon`
+- `lifelines`
+- `MultiLabelBinarizer`
+- `TensorFlow`
+- `MinMaxScaler`
 
 ## **Usage**
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone
    ```
 2. Navigate to the folder and open the notebook:
    ```bash
-   cd MuonTomographyAnalysis
-   jupyter notebook MuonTomographyAnalysis.ipynb
+   cd Muon_tomography_CNN
+   jupyter notebook Muon_tomography_CNN.ipynb
    ```
 3. Follow the steps in the notebook to reproduce the experiments and visualize the results.
 
